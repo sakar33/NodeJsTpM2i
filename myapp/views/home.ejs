@@ -1,0 +1,10 @@
+<html>
+
+ <% if (!user) { %>
+    <p> Please <a href="/login">log in</a> </p>
+<% }
+else { %>
+    <p>Welcome <%= user.name %><p>    
+<% } %>
+
+</html>
